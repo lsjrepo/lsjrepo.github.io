@@ -11,22 +11,21 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in wuxi China, Jiangnan University, 2015.09 - 2018.06
+* B.S. in nanjing China, Nanjing Institute of Technology, 2011.09 - 2015.06
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
+* China Mobile Limited: Software Engineer |2023.01-now
+  * P4 and SONiC
   * Duties included: Tagging issues
   * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
+* H3C: Software Engineer |2018.12-2023.01
+  * SDN Controller Product
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
-  
+
 Skills
 ======
 * Skill 1
