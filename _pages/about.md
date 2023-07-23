@@ -50,3 +50,6 @@ At the moment, I am particularly interested in the following areas:
 # Certificates
 * Software Design Engineer of Qualification Certificate of Computer and Software Technology Proficiency
 * CET-6
+
+# Programming language
+  Java  C/C++
