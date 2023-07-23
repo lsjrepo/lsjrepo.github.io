@@ -82,9 +82,9 @@ analytics:
 author:
   name             : "Saijie Lu(陆赛杰)"
   avatar           : "profile.png"
-  bio              : "Software engineer"
+  bio              : "Software Engineer"
   location         : "SuZhou-China"
-  employer         :  "China Mobile"
+  employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
   email            :  "kutercores@163.com"
