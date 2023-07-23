@@ -20,9 +20,11 @@ Currently, I am particularly interested in cloud computing networks and I hope t
 
 [//]: # (# Honors and Awards)
 
+# Work experience
+
 
 # Eduction
-- 2015.9 - 2018.6: M.Eng. in Control engineering, Jiangnan University. 
+- 2015.9 - 2018.6: M.Eng. in Control Engineering, Jiangnan University. 
 - 2011.9 - 2015.6: B.Eng. in Automation, Nanjing Institute of Technology.
 
 [//]: # (# Academic Service)

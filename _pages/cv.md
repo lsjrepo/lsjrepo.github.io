@@ -1,58 +1,56 @@
 ---
-layout: archive
-title: "CV"
-permalink: /cv/
+title: "Curriculum Vitae"
+permalink: /cv&contact/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
+# 感兴趣的研究方向
+======
+  本人目前的工作经历主要涉及到数据中心网络控制面以及数据转发面两个方面；在网络控制面，主要涉及到基于ODL技术的控制器功能开发；
+  在网络数据面方面，涉及到利用P4在Tofino芯片上进行网络遥测功能的开发；现阶段比较感兴趣的方向在于网络中的拥塞控制算法，
+  基于机器学习的Self-Driving Network；以及软件定义思想在物联网中的应用(SDN for the IoT)等。
 
-Education
+# 工作经历
 ======
-* M.S. in wuxi China, Jiangnan University, 2015.09 - 2018.06
-* B.S. in nanjing China, Nanjing Institute of Technology, 2011.09 - 2015.06
+* 中国移动云能力中心: 软件开发工程师 | 创新中心 | 2023.01-now
+  * 负责了可编程设备(Tofino)实现网络遥测的方案设计以及功能开发；该项目主要是通过DTEL(Data Plane Telemetry)模块，对特定五元组的数据流进行遥测
+    标记，收集当前设备的队列深度、出入时间戳、出入端口、设备ID并上报管控系统，管控系统分析链路的拥塞情况以及路径信息，
+    若链路发生拥塞，向发送端OVS发送降速指令以缓解数据链路中的网络拥塞。
+  * 负责与外部厂商合作，制定基于ASIC芯片(Broadcom以及Centec)的网络遥测方案，以及项目整体的进度把控以及验收等。
+ 
+* H3C([Intro](https://youtu.be/DUJ1-CbbLM8?t=33)): 软件开发工程师 | SDN控制器开发部 |2018.12-2023.01
+  * 负责了AD-DC 5.3 意图网络构建项目中的仿真网路校验模块的分析、设计以及开发工作，该项目主要功能是通过采集网络建
+   设意图中各个角色设备数量以及组网的形态，确认意图之后生成专家组网；本人负责的模块是对网络构建后的有效性进行检
+   验，主要包括对Underlay网络的连通性进行检测，具体功能是对设备间的连通路径进行探测，并在页面上展示所有的连通路
+   径，以及显示链路中可能存在的环路、路由黑洞等异常情况，同时对于OSPF邻居进行检查。
+  * 参与了AD-DC SeerFabric智能无损数据中心项目的开发，项目基于PFC、ECN等流量拥塞控制技术，避免拥塞热点以及链
+   路的优化；DC控制器主要提供 vlan网络的自动化构建，ROCE策略的发放，提供基专家经验以及智能分析器配合两种方式进行
+   PFC/ECN参数的调优，本人主要负责了其中ROCE专家策略部分的下发流程，并参与了部分与智能分析器之间的联调的工作。
+  * 参与了中航信Telemetry可视化配置项目的开发，项目主要功能是支持SDN控制器对设备关于gRPC、ERSPAN、INT等数据
+   集采协议配置的下发、修改、查询、清除的功能，替代原始手动逐个登录设备进行命令配置的不便，方便SeerAnalyer先知分
+   析器中对关键数据采集和监控相关设备协议的可视化配置和展示。
 
-Work experience
+# 教育背景
 ======
-* China Mobile Limited: Software Engineer |2023.01-now
-  * P4 and SONiC
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2015.09 - 2018.06，江南大学 | 物联网工程学院 | 控制工程专业，硕士，导师：彭力。
+* 2011.09 - 2015.06，南京工程学院 | 自动化学院 | 自动化专业，学士。
 
-* H3C: Software Engineer |2018.12-2023.01
-  * SDN Controller Product
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# 论文以及专利列表
+======
+## 论文
+*  陆赛杰,李云骥,彭力. 网络丢包环境中基于新息驱动的远程状态估计传输策略设计[J]. 传感技术学报,2018,31(5):759-765. DOI:10.3969/j.issn.1004-1699.2018.05.018.
+*  谢承翰,陆赛杰,李云骥,等. 无线传感器网络中含未知输入的事件驱动状态估计器设计[J]. 通信学报,2017,38(z1):200-206. DOI:10.11959/j.issn.1000-436x.2017254.
+*  谢承翰,陆赛杰,王皓,等. 无线传感器网络中基于事件驱动的输出反馈控制[J]. 计算机研究与发展,2017,54(11):2639-2645. DOI:10.7544/issn1000-1239.2017.20160643.
 
-Skills
+## 发明专利
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* 中国移动. 一种基于租户优先级策略的集中式拥塞控制方法.（评审通过待发表）
+* 中国移动. 一种基于INT的Overlay网络拥塞路径检测方法.（评审中）
 
-Publications
+# 证书
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* 软件设计师
+* CET-6
