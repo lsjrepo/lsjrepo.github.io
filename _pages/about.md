@@ -18,7 +18,7 @@ At the moment, I am particularly interested in the following areas:
 
 
 # Work experience
-* China Mobile Limited: Software Engineer  2023.01-now
+* China Mobile Limited: Software Engineer  (2023.01-now)
     * I was responsible for the design and development of a solution for network telemetry implementation on programmable devices (Tofino). 
       The main focus of this project was to perform telemetry marking on specific five-tuple data flows using the DTEL (Data Plane Telemetry) module. 
       The collected telemetry data includes current device queue depths, in/out timestamps, in/out ports, and the device id. 
@@ -27,7 +27,7 @@ At the moment, I am particularly interested in the following areas:
     * I was responsible for collaborating with external vendors to develop network telemetry solutions based on ASIC chips (Broadcom and Centec). 
       This involved devising plans for telemetry implementation using the specified chips and ensuring the overall project progress and successful completion. 
       Additionally, I oversaw the acceptance testing and validation processes to ensure the effectiveness and functionality of the implemented telemetry solutions.
-* H3C([Intro](https://youtu.be/DUJ1-CbbLM8?t=33)): Software Engineer  2018.12-2023.01
+* H3C([Intro](https://youtu.be/DUJ1-CbbLM8?t=33)): Software Engineer  (2018.12-2023.01)
     * I was responsible for the analysis, design, and development of the simulation network verification module in the AD-DC 5.3 Intent Network Construction project. 
       The main functionality of this project was to capture the quantities of various role devices and network topologies from the intended network design. 
       After confirming the intent, an expert network configuration would be generated.
@@ -48,7 +48,7 @@ At the moment, I am particularly interested in the following areas:
 - 2011.9 - 2015.6: B.Eng. in Automation, Nanjing Institute of Technology.
 
 # Certificates
-* Software Design Engineer of Qualification Certificate of Computer and Software Technology Proficiency
+* Qualification Certificate of Computer and Software Technology Proficiency(Software Design Engineer)
 * CET-6
 
 # Programming language
